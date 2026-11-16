@@ -1,11 +1,11 @@
 # Entwicklungs-Roadmap
 
-## Phase 0: Vorbereitung & Setup (Aktuell)
+## Phase 0: Vorbereitung & Setup (In Arbeit)
 - [x] Projektidee & Briefing analysieren
 - [x] Dokumentationsstruktur (`AGENTS.md`, `docs/*`) anlegen
 - [x] Git-Repository initialisieren
-- [ ] Rust & C++ Build Tools installieren und verifizieren
-- [ ] Tauri 2 CLI einrichten
+- [x] Rust & C++ Build Tools installieren und verifizieren
+- [ ] Tauri 2 CLI & Projekt initialisieren
 
 ## Phase 1: Minimales Tauri 2 Desktop-Widget
 - [ ] Tauri-Projekt aufsetzen
