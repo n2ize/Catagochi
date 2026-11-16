@@ -1,16 +1,17 @@
 # Entwicklungs-Roadmap
 
-## Phase 0: Vorbereitung & Setup (In Arbeit)
+## Phase 0: Vorbereitung & Setup (Abgeschlossen)
 - [x] Projektidee & Briefing analysieren
 - [x] Dokumentationsstruktur (`AGENTS.md`, `docs/*`) anlegen
-- [x] Git-Repository initialisieren
+- [x] Git-Repository initialisieren & mit GitHub verknüpfen
 - [x] Rust & C++ Build Tools installieren und verifizieren
-- [ ] Tauri 2 CLI & Projekt initialisieren
+- [x] Tauri 2 Projekt mit Vanilla JS & Vite Dev-Server aufsetzen
+- [x] Initiales Widget-Fenster konfigurieren (260x360, rahmenlos, Always-on-Top)
 
-## Phase 1: Minimales Tauri 2 Desktop-Widget
-- [ ] Tauri-Projekt aufsetzen
-- [ ] Fensterkonfiguration: rahmenlos (`decorations: false`), `alwaysOnTop: true`, Größe ca. 260x340
-- [ ] Drag-Region testen (`data-tauri-drag-region`)
+## Phase 1: Das Tauri 2 Desktop-Widget & Window-Controls (Aktuell)
+- [ ] Erstes lokales Starten und Fenster-Verhalten testen
+- [ ] Drag-to-Move für rahmenlose Fenster einrichten (`data-tauri-drag-region`)
+- [ ] Minimiere / Schließen Buttons im Widget (da rahmenlos)
 
 ## Phase 2: Frontend-Prototyp (Vanilla Web)
 - [ ] HTML-Grundstruktur (Katzenfoto, 3 Balken, 3 Buttons)
